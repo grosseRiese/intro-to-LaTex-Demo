@@ -1,0 +1,40 @@
+\documentclass{article}
+
+\usepackage[swedish]{babel}  % Svenska rubriker i innehållsförteckning etc
+
+% Kommentarer inleds med procenttecken och visas inte
+% Här kommer en titel och författare att visa i början av dokumnetet
+% och i sidhuvudena (om man vill)
+\title{LaTex demo}
+\author{Some one}
+\date{2021-09-29}
+
+\begin{document}
+
+%Skapa titelinfo
+\maketitle
+
+
+%Lägga till rubriker för sektioner etc.
+\section{Första sektionen}
+
+Skriv lite text och kompilera.
+
+En tom rad ger nytt stycke. Men nu vill vi väl skriva lite matematik också,
+det är ju det som LaTex är verkligt bra på. För att skriva en formel inne i text
+skriver man den mellan \textbackslash( och \textbackslash): \( x y z=3 \). Observera
+att fonten blir annorlunda när man skriver en formel och dessutom blir det 
+inga mellanrum även om man gör mellanslag. Om man vill ha en formel på en egen
+rad istället så använder man  \textbackslash [ och \textbackslash ] istället:
+\[
+x y z = 3.
+\]
+
+\subsection{En liten undersektion}
+Här finns en del intressant text.
+
+
+%Avsluta med en innehållsförteckning
+\tableofcontents
+
+\end{document}
