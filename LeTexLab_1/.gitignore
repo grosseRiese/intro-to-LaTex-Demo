@@ -22,7 +22,7 @@ yarn-error.log*
 *.sw*
 
 # LaTex
-*.pdf
+#*.pdf
 *.gz
 *.synctex
 *.fdb_latexmk
